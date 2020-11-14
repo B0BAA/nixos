@@ -10,6 +10,8 @@ in
     settings = {
       env = {};
 
+    background_opacity = 0.9;
+
     # Normal colors
   normal = {
     black =   "0x0d0d0d";
@@ -34,7 +36,7 @@ in
    };
       font = {
         size = 11;
-            background_opacity = 0.9;
+
       };
     };
          };

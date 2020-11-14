@@ -4,6 +4,6 @@
  users.users.bob = {
      isNormalUser = true;
      extraGroups = [ "wheel" "root" "networkmanager" "video" "wireshark" ]; # Enable ‘sudo’ for the user.
-    shell = pkgs.fish; #default shell to be fish
+    shell = pkgs.zsh; #default shell to be fish
    };
 }
