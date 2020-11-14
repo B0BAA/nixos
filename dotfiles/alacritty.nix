@@ -8,37 +8,35 @@ in
     enable = true;
 
     settings = {
+      env = {};
 
-      normal = {
-        black =   "0x1d1f21";
-        red =     "0xcc6666";
-        green =   "0xb5bd68";
-        yellow =  "0xe6c547";
-        blue =    "0x81a2be";
-        magenta = "0xb294bb";
-        cyan =    "0x70c0ba";
-        white =   "0x373b41";
-      };
-
-      # Bright colors
-      bright = {
-        black =   "0x666666";
-        red =     "0xff3334";
-        green =   "0x9ec400";
-        yellow =  "0xe7c547";
-        blue =    "0x81a2be";
-        magenta = "0xb77ee0";
-        cyan =    "0x54ced6";
-        white =   "0x282a2e";
-      };
-
-      style = "|";
+    # Normal colors
+  normal = {
+    black =   "0x0d0d0d";
+    red =     "0xFF301B";
+    green =   "0xA0E521";
+    yellow =  "0xFFC620";
+    blue =    "0x1BA6FA";
+    magenta = "0x8763B8";
+    cyan =    "0x21DEEF";
+    white =   "0xEBEBEB";
+  };
+  # Bright colors
+  bright = {
+    black = "0x6D7070";
+    red  =    "0xFF4352";
+    green =  "0xB8E466";
+    yellow = "0xFFD750";
+    blue  =  "0x1BA6FA";
+    magenta = "0xA578EA";
+    cyan   = "0x73FBF1";
+    white  = "0xFEFEF8";
+   };
       font = {
         size = 11;
-            background_opacity = 0.7;
+            background_opacity = 0.9;
       };
     };
-
          };
 
     
